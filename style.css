@@ -1,0 +1,78 @@
+#calculator{
+
+    font-family: Arial,sans-serif;
+    background-color: rgb(19, 16, 16);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+
+
+}
+
+#display{
+
+    width: 100%;
+    padding: 20px;
+    font-size:5rem ;
+    text-align: left;
+    color: white;
+     background-color: rgb(71, 69, 69);
+
+}
+
+body{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+     
+}
+
+#keys{
+
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+ }
+ 
+ 
+ 
+ button{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(53, 50, 50);
+    color:  white;
+    font-size: 3rem;
+    cursor: pointer;
+ }
+
+ button:hover{
+
+    background-color: hsl(0, 0%, 40%);
+ }
+
+ button:active{
+
+    background-color: hsl(0, 0%, 50%);
+
+ }
+
+ .operator-btn{
+
+    background-color:hsl(35, 100%, 55%); ;
+ }
+ .operator-btn:hover{
+
+    background-color:hsl(35, 100%, 65%); ;
+ }
+ .operator-btn:active{
+
+    background-color:hsl(35, 100%, 75%); ;
+ }
+
+ /* IMP .Note :- the above hsl(1,2,3)-->> here the 3rd parameter is increased then lightness of the color will get increased */
